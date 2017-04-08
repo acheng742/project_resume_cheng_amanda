@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$.backstretch(
+	$.backstretch(// this plugin adds background images and inifinitely rotates as slideshow
 		[
 			"img/background1.jpg",
 			"img/background2.jpg",
@@ -9,7 +9,7 @@ $(document).ready(function() {
 		}
 	);
 
-	$('.tooltip').tooltipster( {
+	$('.tooltip').tooltipster( {// this plugin adds a tooltip when hovering over the image
 		theme: 'tooltipster-punk',
 		position: 'bottom'
 	});
