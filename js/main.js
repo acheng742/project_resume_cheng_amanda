@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).ready(function() {
 	$.backstretch(
 		[
 			"img/background1.jpg",
@@ -8,4 +8,10 @@ $(document).ready(function(){
 			fade: 1000
 		}
 	);
+
+	$('.tooltip').tooltipster( {
+		theme: 'tooltipster-punk',
+		position: 'bottom'
+	});
+
 });

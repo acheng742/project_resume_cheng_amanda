@@ -68,9 +68,26 @@ footer p {
 }
 
 @media all and (min-width: 800px) {
+	#experience, #skills {
+		background-color: #CBD0D1;
+		padding: 0px 45px 25px 45px;
+	}
 
+	#education, #interests {
+		padding: 0px 45px 35px 45px;
+	}
 }
 
-@media all and (max-width: 400px) {
+@media all and (max-width: 500px) {
+	#headshot img {
+		width: 200px;
+	}
+	#experience, #skills {
+		background-color: #CBD0D1;
+		padding: 0px 75px 45px 75px;
+	}
 
+	#education, #interests {
+		padding: 0px 75px 45px 75px;
+	}
 }
