@@ -78,7 +78,7 @@ footer p {
 	}
 }
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 520px) {
 	#headshot img {
 		width: 200px;
 	}
