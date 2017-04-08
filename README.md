@@ -21,4 +21,4 @@
 - I reviewed the list of deductions for this project and in the syllabus.
 
 # Comments
-- No comments
+- There seems to be a marginal gap at the top of my container... I tried to fix it by using the dev tools to uncheck the box-size properties, but I really could not find what the exact issue was. I've never had this problem before. Any insight?
