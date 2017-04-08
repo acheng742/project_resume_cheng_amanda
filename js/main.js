@@ -1,3 +1,11 @@
 $(document).ready(function(){
-	$.backstretch("http://dl.dropbox.com/u/515046/www/garfield-interior.jpg");
+	$.backstretch(
+		[
+			"img/background1.jpg",
+			"img/background2.jpg",
+			"img/background3.jpg"
+		], {
+			fade: 1000
+		}
+	);
 });
